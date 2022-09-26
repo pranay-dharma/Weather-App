@@ -1,0 +1,59 @@
+body{
+  background-color: #799f0c;
+}
+.container{
+  display:block;
+justify-content: center;
+}
+.container-box{
+  position: relative;
+
+}
+.title{
+  display:flex;
+  justify-content: center;
+  font-size:40px;
+}
+.input-box{
+  display:block;
+  justify-content: center;
+}
+
+input[type="text"]{
+  display:flex;
+  text-decoration: none;
+border:none;
+outline:none;
+width:30%;
+border:1px solid grey;
+border-radius: 6px;
+padding:7px;
+outline:none;
+}
+.btn{
+  width:100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color:#799f0c;
+  font-size:20px;
+}
+
+.report{
+  position:relative;
+}
+
+.data{
+  position: absolute;
+  top:50%;
+  left:50%;
+  font-size:16px;
+  transform: translate(-50%, -50%);
+  font-size:40px;
+}
+img{
+  width:100%;
+  height:500px;
+  opacity: 0.5;
+}
